@@ -32,7 +32,7 @@ int main() {
             if (factorialResult == -1) {
                 cout << "Silnia nie jest zdefiniowana dla liczb ujemnych." << endl;
             } else {
-                cout << "Silnia liczby " << a << " wynosi: " << factorialResult << endl;
+                cout << "Silnia liczby " << a << " wynosi " << factorialResult << endl;
             }
         } else if (wyjscie != 0) {
             cout << "Nieprawidlowy wybor. Sprobuj ponownie." << endl;
